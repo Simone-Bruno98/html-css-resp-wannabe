@@ -94,3 +94,25 @@ img {
     background-color: #F2F2CD;
   }
 }
+@media screen and (max-width: 1024px){
+    
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .row{
+    width: 100%;
+    padding: 20px 25px 0px 25px;
+    margin-top: 0px;
+  }
+
+  #lezioni .row>.left,#lezioni .row>.right,#steps .row>.left,#steps .row>.central,#steps .row>.right {
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  #lezioni,#why{
+    background-color: #F2F2CD;
+  }
+}
